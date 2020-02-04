@@ -13,7 +13,9 @@ gem 'bcrypt', '~> 3.1', '>= 3.1.13'
 gem 'turbolinks', '5.2.0'
 gem 'jbuilder',   '2.9.1'
 gem 'bootsnap',   '1.4.5', require: false
-
+gem 'faker', '~> 2.10', '>= 2.10.1'
+gem 'will_paginate', '~> 3.2', '>= 3.2.1'
+gem 'bootstrap-will_paginate', '~> 1.0'
 
 group :development, :test do
   gem 'sqlite3', '1.4.1'
